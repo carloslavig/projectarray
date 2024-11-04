@@ -2,13 +2,21 @@ public class Main
 {
     public static void main(String[] args)
     {
-        System.out.printf("Hello and welcome!");
+        int numero1 =1;
+        int numero2 =2;
+        int numero3 =3;
 
-        for (int i = 1; i <= 5; i++)
+        String [] letras =  new String[5];
+        //[0][1][2][3][4]
+        letras[0]="A";
+        letras[1]="B";
+        letras[2]="C";
+        letras[3]="D";
+        letras[4]="E";
+        for (int i=0; i<letras.length;i++)
         {
-            System.out.println("i = " + i);
-        //modificação para restaurar
-            //modificação 2 para apagar após restaurado
+            System.out.println(letras[i]);
         }
+
     }
 }
